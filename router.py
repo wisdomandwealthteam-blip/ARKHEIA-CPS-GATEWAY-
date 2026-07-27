@@ -1,4 +1,3 @@
-
 # router.py
 # Forwards validated and rate-limited requests to the backend
 
@@ -39,4 +38,4 @@ def forward_request(api_key: str, key_store: dict, payload: dict) -> dict:
         )
         return response.json()
     except Exception as e:
-        return {"error": f"Backend request failed: {str(e)}}
+        return {"error": f"Backend request failed: {str(e)}"}
