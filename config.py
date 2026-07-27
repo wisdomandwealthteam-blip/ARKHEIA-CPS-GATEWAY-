@@ -1,9 +1,8 @@
-
 # config.py
 # Central configuration for the API gateway
 
 # URL of your backend service
-BACKEND_URL = "https://your-backend-url.onrender.com/api"
+BACKEND_URL = "https://arkheia-cps-backend.onrender.com/api"
 
 # Plan definitions for billing + rate limits
 PLANS = {
